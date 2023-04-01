@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div class="page-wrapper mx-auto">
           <Header />
           <Routes>
             <Route exact path="/" element={<Home />} />
