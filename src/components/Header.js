@@ -10,18 +10,18 @@ export class Header extends Component {
         className="d-flex w-100 justify-content-between"
         style={{ backgroundColor: "#ccc" }}
       >
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="/">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+          <div className="container-fluid">
+            <Link className="navbar-brand" to={"/"}>
               <img
                 src={logo}
                 className="logo"
                 alt="logo"
                 style={{ maxWidth: 200 }}
               />
-            </a>
+            </Link>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"
@@ -29,23 +29,23 @@ export class Header extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
                 <li>
-                  <Link to={"/"} class="nav-link active">
-                    Home
+                  <Link to={"/about"} className="nav-link">
+                    Sobre
                   </Link>
                 </li>
                 <li>
                   <Link to={"/contact"} className="nav-link">
-                    Contact
+                    Contato
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/about"} className="nav-link">
-                    About
+                  <Link to={"/next-events"} className="nav-link">
+                    Próximos Eventos
                   </Link>
                 </li>
               </ul>

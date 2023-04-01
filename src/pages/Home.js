@@ -6,7 +6,9 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2 style={{ color: "black" }}>Home</h2>
+        <h4 className="page-title p-3">
+          Seminários, Simpósios e Cursos Técnicos
+        </h4>
       </div>
     );
   }
