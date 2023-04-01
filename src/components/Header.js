@@ -7,10 +7,10 @@ export class Header extends Component {
   render() {
     return (
       <header
-        className="d-flex w-100 justify-content-between"
+        className="d-flex justify-content-between"
         style={{ backgroundColor: "#ccc" }}
       >
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <Link className="navbar-brand" to={"/"}>
               <img
