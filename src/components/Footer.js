@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 import FacebookIcon from "../assets/images/facebook.svg";
 import InstagramIcon from "../assets/images/instagram.svg";
 import LinkedinIcon from "../assets/images/linkedin.svg";
-import EmailIcon from "../assets/images/email.svg";
 import WhatsappIcon from "../assets/images/whatsapp.svg";
 
 export class Footer extends Component {
   render() {
     return (
-      <footer className="bg-light text-center fixed-bottom main-footer mx-auto">
+      <footer className="bg-light text-center main-footer fixed-bottom">
         <div className="container p-2">
           <div className="row">
             <Link

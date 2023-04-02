@@ -56,6 +56,11 @@ img {
 
 .main-footer {
   max-width: 960px;
+  margin: 0 auto;
+}
+
+.pages-container {
+  padding-bottom: 150px;
 }
 
 @media only screen and (max-width: 960px) {

@@ -13,7 +13,7 @@ class App extends Component {
       <Router>
         <div className="page-wrapper mx-auto">
           <Header />
-          <div className="flex-grow-1">
+          <div className="flex-grow-1 pages-container">
             <Routes>
               <Route exact path="/" element={<Home />} />
               <Route path="/contact" element={<Contact />} />

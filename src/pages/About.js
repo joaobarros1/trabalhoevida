@@ -7,10 +7,10 @@ class About extends Component {
       <div>
         <h4 className="page-title p-3">Sobre nós</h4>
         <div className="row p-3">
-          <div className="col-5">
-            <img src={SimposioImg} alt="Simposio" style={{ maxWidth: 350 }} />
+          <div className="col-md-5">
+            <img src={SimposioImg} alt="Simposio" className="img-fluid" />
           </div>
-          <div className="col-6">
+          <div className="col-md-6 mt-3">
             <p>
               O Instituto Para Promoção do Trabalho Empreendedor –{" "}
               <strong>Trabalho e Vida</strong> foi fundado em 1º de março de
