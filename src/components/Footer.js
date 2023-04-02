@@ -4,6 +4,7 @@ import FacebookIcon from "../assets/images/facebook.svg";
 import InstagramIcon from "../assets/images/instagram.svg";
 import LinkedinIcon from "../assets/images/linkedin.svg";
 import WhatsappIcon from "../assets/images/whatsapp.svg";
+import YoutubeIcon from "../assets/images/youtube.svg";
 
 export class Footer extends Component {
   render() {
@@ -11,18 +12,19 @@ export class Footer extends Component {
       <footer className="bg-light text-center main-footer fixed-bottom">
         <div className="container p-2">
           <div className="row">
+            <div className="col-1"></div>
             <Link
               to={"https://wa.me/5511975150036"}
+              className="col-2"
               target="_blank"
               title="Send an email"
-              className="col-3"
               rel="noopener noreferrer"
             >
               <img src={WhatsappIcon} alt="Whatsapp" style={{ maxWidth: 24 }} />
             </Link>
             <Link
               to={"https://www.instagram.com/institutotrabalhoevida/"}
-              className="col-3"
+              className="col-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -34,7 +36,7 @@ export class Footer extends Component {
             </Link>
             <Link
               to={"https://www.linkedin.com/company/instituto-trabalho-e-vida/"}
-              className="col-3"
+              className="col-2"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -42,12 +44,21 @@ export class Footer extends Component {
             </Link>
             <Link
               to={"https://www.facebook.com/trabalhoevida"}
-              className="col-3"
+              className="col-2"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={FacebookIcon} alt="Facebook" style={{ maxWidth: 24 }} />
             </Link>
+            <Link
+              to={"https://www.youtube.com/@institutotrabalhoevida3141"}
+              className="col-2"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={YoutubeIcon} alt="Youtube" style={{ maxWidth: 24 }} />
+            </Link>
+            <div className="col-1"></div>
           </div>
         </div>
         <div

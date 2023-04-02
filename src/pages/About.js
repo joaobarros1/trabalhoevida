@@ -6,8 +6,8 @@ class About extends Component {
     return (
       <div>
         <h4 className="page-title p-3">Sobre nós</h4>
-        <div className="row p-3">
-          <div className="col-md-5">
+        <div className="row mx-0">
+          <div className="col-sm-5">
             <img src={SimposioImg} alt="Simposio" className="img-fluid" />
           </div>
           <div className="col-md-6 mt-3">
