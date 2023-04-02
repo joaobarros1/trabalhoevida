@@ -12,19 +12,18 @@ export class Footer extends Component {
       <footer className="bg-light text-center fixed-bottom main-footer mx-auto">
         <div className="container p-2">
           <div className="row">
-            <div className="col-1"></div>
-            <a
-              href="mailto:institutotrabalhoevida@gmail.com"
+            <Link
+              to={"https://wa.me/5511975150036"}
               target="_blank"
               title="Send an email"
-              className="col-2"
+              className="col-3"
               rel="noopener noreferrer"
             >
-              <img src={EmailIcon} alt="E-mail" style={{ maxWidth: 24 }} />
-            </a>
+              <img src={WhatsappIcon} alt="Whatsapp" style={{ maxWidth: 24 }} />
+            </Link>
             <Link
               to={"https://www.instagram.com/institutotrabalhoevida/"}
-              className="col-2"
+              className="col-3"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -36,7 +35,7 @@ export class Footer extends Component {
             </Link>
             <Link
               to={"https://www.linkedin.com/company/instituto-trabalho-e-vida/"}
-              className="col-2"
+              className="col-3"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -44,22 +43,12 @@ export class Footer extends Component {
             </Link>
             <Link
               to={"https://www.facebook.com/trabalhoevida"}
-              className="col-2"
+              className="col-3"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src={FacebookIcon} alt="Facebook" style={{ maxWidth: 24 }} />
             </Link>
-            <a
-              href="whatsapp://send?phone=5511941215530"
-              target="_blank"
-              title="Send an email"
-              className="col-2"
-              rel="noopener noreferrer"
-            >
-              <img src={WhatsappIcon} alt="Whatsapp" style={{ maxWidth: 24 }} />
-            </a>
-            <div className="col-1"></div>
           </div>
         </div>
         <div
