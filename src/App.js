@@ -13,14 +13,12 @@ class App extends Component {
       <Router>
         <div className="page-wrapper mx-auto">
           <Header />
-          <div className="pages-container">
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/next-events" element={<NextEvents />} />
-            </Routes>
-          </div>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/next-events" element={<NextEvents />} />
+          </Routes>
           <Footer />
         </div>
       </Router>

@@ -9,7 +9,7 @@ import YoutubeIcon from "../assets/images/youtube.svg";
 export class Footer extends Component {
   render() {
     return (
-      <footer className="bg-light text-center main-footer fixed-bottom">
+      <footer className="bg-light text-center main-footer">
         <div className="container p-2">
           <div className="row">
             <div className="col-1"></div>
@@ -65,8 +65,11 @@ export class Footer extends Component {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2023 - Instituto Para Promoção do Trabalho Empreendedor - Trabalho e
-          Vida
+          <p>
+            © 2023 - Instituto Para Promoção do Trabalho Empreendedor - Trabalho
+            e Vida
+          </p>
+          <p>institutotrabalhoevida@gmail.com</p>
         </div>
       </footer>
     );
