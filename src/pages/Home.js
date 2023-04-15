@@ -13,11 +13,11 @@ class Home extends Component {
           </h4>
           <div className="container">
             <div>
-              <img src={barueri23} alt="banner evento" />
+              <img src={sjdc23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Faça sua{" "}
                 <a
-                  href="https://forms.gle/hTDrEUuxYdK3Dvya8"
+                  href="https://forms.gle/eQdXq7jWgEt3DcCr8"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -41,11 +41,11 @@ class Home extends Component {
               </h4>
             </div>
             <div>
-              <img src={sjdc23} alt="banner evento" />
+              <img src={barueri23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Faça sua{" "}
                 <a
-                  href="https://forms.gle/eQdXq7jWgEt3DcCr8"
+                  href="https://forms.gle/hTDrEUuxYdK3Dvya8"
                   target="_blank"
                   rel="noreferrer"
                 >
