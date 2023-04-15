@@ -6,7 +6,7 @@ import sjdc23 from "../assets/images/sjdc23.jpeg";
 class Home extends Component {
   render() {
     return (
-      <div className="d-flex">
+      <div className="d-flex page-container">
         <div className="d-flex flex-column">
           <h4 className="page-title p-3">
             Seminários, Simpósios e Cursos Técnicos

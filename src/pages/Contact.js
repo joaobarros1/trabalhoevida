@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <div>
+      <div className="page-container">
         <h4 className="page-title p-3">Contato</h4>
-        <form action="#" method="POST" className="p-3">
+        <form action="#" method="POST" className="p-3 mb-5">
           <div className="form-group mb-3">
             <label for="inputName">Nome</label>
             <input

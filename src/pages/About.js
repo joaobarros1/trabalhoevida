@@ -4,9 +4,9 @@ import SimposioImg from "../assets/images/simposio.jpeg";
 class About extends Component {
   render() {
     return (
-      <div>
+      <div className="page-container">
         <h4 className="page-title p-3">Sobre nós</h4>
-        <div className="row mx-0">
+        <div className="row mx-0 mb-5">
           <div className="col-sm-5">
             <img src={SimposioImg} alt="Simposio" className="img-fluid" />
           </div>

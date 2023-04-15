@@ -9,7 +9,7 @@ import YoutubeIcon from "../assets/images/youtube.svg";
 export class Footer extends Component {
   render() {
     return (
-      <footer className="bg-light text-center main-footer">
+      <footer className="bg-light text-center main-footer footer">
         <div className="container p-2">
           <div className="row">
             <div className="col-1"></div>
