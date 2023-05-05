@@ -14,7 +14,7 @@ export class Footer extends Component {
           <div className="row">
             <div className="col-1"></div>
             <Link
-              to={"https://wa.me/5511975150036"}
+              to={"https://wa.me/5513981105347"}
               className="col-2"
               target="_blank"
               title="Send an email"

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import barueri23 from "../assets/images/barueri23.jpeg";
+import spMaio23 from "../assets/images/sp-maio-2023.jpeg";
 import portoAlegre23 from "../assets/images/portoAlegre23.jpeg";
 import sjdc23 from "../assets/images/sjdc23.jpeg";
 
@@ -41,7 +41,7 @@ class Home extends Component {
               </h4>
             </div>
             <div>
-              <img src={barueri23} alt="banner evento" />
+              <img src={spMaio23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Faça sua{" "}
                 <a
