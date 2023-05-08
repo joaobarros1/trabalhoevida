@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NextEvents from "./pages/NextEvents";
+import Courses from "./pages/Courses";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/next-events" element={<NextEvents />} />
+            <Route path="/courses" element={<Courses />} />
           </Routes>
           <Footer />
         </div>

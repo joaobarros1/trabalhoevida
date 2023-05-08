@@ -48,6 +48,11 @@ export class Header extends Component {
                     Próximos Eventos
                   </Link>
                 </li> */}
+                <li>
+                  <Link to={"/courses"} className="nav-link">
+                    Cursos
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
