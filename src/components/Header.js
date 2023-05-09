@@ -38,19 +38,19 @@ export class Header extends Component {
                     Sobre
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link to={"/contact"} className="nav-link">
                     Contato
-                  </Link>
-                </li>
-                {/* <li>
-                  <Link to={"/next-events"} className="nav-link">
-                    Próximos Eventos
                   </Link>
                 </li> */}
                 <li>
                   <Link to={"/courses"} className="nav-link">
                     Cursos
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/next-events"} className="nav-link">
+                    Próximos Eventos
                   </Link>
                 </li>
               </ul>
