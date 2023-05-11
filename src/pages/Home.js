@@ -15,15 +15,15 @@ class Home extends Component {
             <div>
               <img src={sjdc23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
-                Faça sua{" "}
-                <a
+                Evento realizado em 11 de maio de 2023
+                {/* <a
                   href="https://forms.gle/eQdXq7jWgEt3DcCr8"
                   target="_blank"
                   rel="noreferrer"
                 >
                   inscrição aqui
-                </a>
-                !
+                </a> */}
+                {/* ! */}
               </h4>
             </div>
             <div>
