@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import abrasfe from "../assets/images/abrasfe.jpeg";
+import premio from "../assets/images/premio.jpeg";
 
 export class NextEvents extends Component {
   render() {
@@ -8,17 +8,17 @@ export class NextEvents extends Component {
         <div className="d-flex flex-column">
           <h4 className="page-title p-3">Próximos Eventos</h4>
           <div className="container">
-            <img src={abrasfe} alt="banner evento" />
+            <img src={premio} alt="banner evento" />
             <h4 className="pt-4 pb-5">
-              Garanta sua vaga gratuitamente{" "}
+              Ainda da tempo de se{" "}
               <a
-                href="https://doity.com.br/live-abrasfe-academy-formas-concreto-pavimentos-verticais"
+                href="https://cbic.org.br/premio-seconci-sp-prazo-de-inscricoes-vai-ate-31-de-maio/?utm_campaign=cbic_hoje_23052023&utm_medium=email&utm_source=RD+Station"
                 target="_blank"
                 rel="noreferrer"
               >
-                aqui
-              </a>
-              !
+                inscrever
+              </a>{" "}
+              no 7º Premio SECONCI SST.
             </h4>
           </div>
         </div>
