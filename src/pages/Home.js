@@ -22,36 +22,36 @@ class Home extends Component {
                   rel="noreferrer"
                 >
                   inscrição aqui
-                </a> */}
-                {/* ! */}
+                </a>
+                ! */}
               </h4>
             </div>
             <div>
               <img src={portoAlegre23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
-                Faça sua{" "}
-                <a
+                Evento realizado em 17 de maio de 2023
+                {/* <a
                   href="https://forms.gle/gHWQLqowTvBkUfmr9"
                   target="_blank"
                   rel="noreferrer"
                 >
                   inscrição aqui
                 </a>
-                !
+                ! */}
               </h4>
             </div>
             <div>
               <img src={spMaio23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
-                Faça sua{" "}
-                <a
+                Evento realizado em 23 de maio de 2023
+                {/* <a
                   href="https://forms.gle/hTDrEUuxYdK3Dvya8"
                   target="_blank"
                   rel="noreferrer"
                 >
                   inscrição aqui
                 </a>
-                !
+                ! */}
               </h4>
             </div>
           </div>
