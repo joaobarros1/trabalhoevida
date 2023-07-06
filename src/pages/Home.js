@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ribeirao from "../assets/images/ribeirao.jpeg";
-import sjrp from "../assets/images/sjrp.jpeg";
+import agenda from "../assets/images/agenda.jpeg";
 
 class Home extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import cursoRiscosEletricos from "../assets/files/cursoRiscosEletricos.pdf";
+import cursoPreparatorio from "../assets/files/cursoPreparatorio.pdf";
 
 class Courses extends Component {
   render() {
@@ -9,8 +9,8 @@ class Courses extends Component {
           <h4 className="page-title p-3">Cursos Técnicos</h4>
           <div className="container">
             <div>
-              <embed src={cursoRiscosEletricos} width="900px" height="700px" />
-              <h4 className="pt-4 pb-5">
+              <embed src={cursoPreparatorio} width="900px" height="660px" />
+              {/* <h4 className="pt-4 pb-5">
                 Faça sua{" "}
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfb4xHXHOtSnkGfKmGhaCc_z_fDj0hhj6nAz3JOWJBDjn21RQ/viewform"
@@ -20,7 +20,7 @@ class Courses extends Component {
                   inscrição aqui
                 </a>
                 !
-              </h4>
+              </h4> */}
             </div>
           </div>
         </div>
