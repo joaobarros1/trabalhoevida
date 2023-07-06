@@ -6,7 +6,7 @@ export class NextEvents extends Component {
     return (
       <div className="d-flex page-container">
         <div className="d-flex flex-column">
-          <h4 className="page-title p-3">Próximos Eventos</h4>
+          <h4 className="page-title p-3 mt-5">Próximos Eventos</h4>
           <div className="container">
             <div>
               <img src={agenda} alt="banner evento" />
