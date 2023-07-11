@@ -53,6 +53,11 @@ export class Header extends Component {
                     Próximos Eventos
                   </Link>
                 </li>
+                <li>
+                  <Link to={"/partners-events"} className="nav-link">
+                    Eventos de Parceiros
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
