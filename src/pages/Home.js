@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ribeirao from "../assets/images/ribeirao.jpeg";
-import agenda from "../assets/images/agenda.jpeg";
+import belohorizonte from "../assets/images/belohorizonte.jpg";
 
 class Home extends Component {
   render() {
@@ -11,6 +11,20 @@ class Home extends Component {
             Seminários, Simpósios e Cursos Técnicos
           </h4>
           <div className="container">
+            <div>
+              <img src={belohorizonte} alt="banner evento" />
+              <h4 className="pt-4 pb-5">
+                Garanta sua{" "}
+                <a
+                  href="https://forms.gle/Xsv2Sng7YuCq1qX17"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  inscrição aqui
+                </a>
+                !
+              </h4>
+            </div>
             <div>
               <img src={ribeirao} alt="banner evento" />
               <h4 className="pt-4 pb-5">
