@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import ribeirao from "../assets/images/ribeirao.jpeg";
+import piracicaba from "../assets/images/piracicaba.jpeg";
 import belohorizonte from "../assets/images/belohorizonte.jpg";
+import campinas from "../assets/images/campinas.jpeg";
 
 class Home extends Component {
   render() {
@@ -26,11 +27,25 @@ class Home extends Component {
               </h4>
             </div>
             <div>
-              <img src={ribeirao} alt="banner evento" />
+              <img src={piracicaba} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
                 <a
-                  href="https://forms.gle/wohAVpzcxb4dGkQz6"
+                  href="https://forms.gle/gALz1AU6QqjS2YCFA"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  inscrição aqui
+                </a>
+                !
+              </h4>
+            </div>
+            <div>
+              <img src={campinas} alt="banner evento" />
+              <h4 className="pt-4 pb-5">
+                Garanta sua{" "}
+                <a
+                  href="https://forms.gle/b4A8VmhiSUFy4kZh7"
                   target="_blank"
                   rel="noreferrer"
                 >
