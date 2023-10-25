@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import rj from "../assets/images/rj.jpeg";
+import sorocaba23 from "../assets/images/sorocaba23.jpeg";
+import saopaulo1023 from "../assets/images/saopaulo1023.jpeg";
+import simposio23 from "../assets/images/simposio23.jpeg";
 
 class Home extends Component {
   render() {
@@ -11,25 +13,11 @@ class Home extends Component {
           </h4>
           <div className="container">
             <div>
-              <img src={rj} alt="banner evento" />
+              <img src={simposio23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
                 <a
-                  href="https://forms.gle/z2t93PUCJThQFG9j6"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  inscrição aqui
-                </a>
-                !
-              </h4>
-            </div>
-            {/* <div>
-              <img src={piracicaba} alt="banner evento" />
-              <h4 className="pt-4 pb-5">
-                Garanta sua{" "}
-                <a
-                  href="https://forms.gle/gALz1AU6QqjS2YCFA"
+                  href="https://forms.gle/mhSbdmfbZQd3oz1AA"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -39,11 +27,11 @@ class Home extends Component {
               </h4>
             </div>
             <div>
-              <img src={campinas} alt="banner evento" />
+              <img src={saopaulo1023} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
                 <a
-                  href="https://forms.gle/b4A8VmhiSUFy4kZh7"
+                  href="https://forms.gle/1xMxsPk1MoVgfffi8"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -51,7 +39,21 @@ class Home extends Component {
                 </a>
                 !
               </h4>
-            </div> */}
+            </div>
+            <div>
+              <img src={sorocaba23} alt="banner evento" />
+              <h4 className="pt-4 pb-5">
+                Garanta sua{" "}
+                <a
+                  href="https://forms.gle/oFoGdraieV3gS1icA"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  inscrição aqui
+                </a>
+                !
+              </h4>
+            </div>
           </div>
         </div>
       </div>
