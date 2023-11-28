@@ -17,7 +17,7 @@ class Home extends Component {
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
                 <a
-                  href="https://forms.gle/mhSbdmfbZQd3oz1AA"
+                  href="https://forms.gle/6NjQmrkjQTo3oT519"
                   target="_blank"
                   rel="noreferrer"
                 >

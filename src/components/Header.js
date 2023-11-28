@@ -10,7 +10,7 @@ export class Header extends Component {
         className="d-flex justify-content-between"
         style={{ backgroundColor: "#ccc" }}
       >
-        <nav className="navbar navbar-expand-md">
+        <nav className="navbar navbar-expand-md w-100 p-2">
           <div className="container-fluid">
             <Link className="navbar-brand" to={"/"}>
               <img

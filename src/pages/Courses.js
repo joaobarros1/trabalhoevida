@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import cursoPreparatorio from "../assets/files/cursoPreparatorio.pdf";
+// import cursoPreparatorio from "../assets/files/cursoPreparatorio.pdf";
+import CursoAltura from "../assets/images/curso-trabalho-altura.jpeg"
 
 class Courses extends Component {
   render() {
@@ -9,18 +10,19 @@ class Courses extends Component {
           <h4 className="page-title p-3">Cursos Técnicos</h4>
           <div className="container">
             <div>
-              <embed src={cursoPreparatorio} width="900px" height="660px" />
-              {/* <h4 className="pt-4 pb-5">
+              {/* <embed src={cursoPreparatorio} width="900px" height="660px" /> */}
+              <img src={CursoAltura} alt="banner evento" />
+              <h4 className="pt-4 pb-5">
                 Faça sua{" "}
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfb4xHXHOtSnkGfKmGhaCc_z_fDj0hhj6nAz3JOWJBDjn21RQ/viewform"
+                  href="https://doity.com.br/curso-risco-trabalho-em-altura"
                   target="_blank"
                   rel="noreferrer"
                 >
                   inscrição aqui
                 </a>
                 !
-              </h4> */}
+              </h4>
             </div>
           </div>
         </div>
