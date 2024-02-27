@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import cursoPreparatorio from "../assets/files/cursoPreparatorio.pdf";
-import CursoAltura from "../assets/images/curso-trabalho-altura.jpeg"
+import CursoAltura from "../assets/images/curso-trabalho-altura.jpeg";
 
 class Courses extends Component {
   render() {

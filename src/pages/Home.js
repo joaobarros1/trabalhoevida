@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import sorocaba23 from "../assets/images/sorocaba23.jpeg";
 import saopaulo1023 from "../assets/images/saopaulo1023.jpeg";
 import simposio23 from "../assets/images/simposio23.jpeg";
+import rj from "../assets/images/rj.jpeg";
 
 class Home extends Component {
   render() {
@@ -12,6 +13,20 @@ class Home extends Component {
             Seminários, Simpósios e Cursos Técnicos
           </h4>
           <div className="container">
+            <div>
+              <img src={rj} alt="banner evento" />
+              <h4 className="pt-4 pb-5">
+                Garanta sua{" "}
+                <a
+                  href="https://forms.gle/SRTtU11zvXNegN3B9"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  inscrição aqui
+                </a>
+                !
+              </h4>
+            </div>
             <div>
               <img src={simposio23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
