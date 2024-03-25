@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import sorocaba23 from "../assets/images/sorocaba23.jpeg";
-import saopaulo1023 from "../assets/images/saopaulo1023.jpeg";
 import simposio23 from "../assets/images/simposio23.jpeg";
-import rj from "../assets/images/rj.jpeg";
+import joao_campos from "../assets/images/joao_campos.jpg";
 
 class Home extends Component {
   render() {
@@ -13,12 +11,12 @@ class Home extends Component {
             Seminários, Simpósios e Cursos Técnicos
           </h4>
           <div className="container">
-            <div>
-              <img src={rj} alt="banner evento" />
+            <div className="d-flex flex-column aling-items-center">
+              <img src={joao_campos} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
                 <a
-                  href="https://forms.gle/SRTtU11zvXNegN3B9"
+                  href="https://www.linkedin.com/posts/jo%C3%A3o-carlos-pires-campos_aos-colegas-da-sst-e-tamb%C3%A9m-de-esg-da-constru%C3%A7%C3%A3o-activity-7173637161152462848-ghI6?utm_source=share&utm_medium=member_android"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -27,7 +25,7 @@ class Home extends Component {
                 !
               </h4>
             </div>
-            <div>
+            <div className="d-flex flex-column aling-items-center">
               <img src={simposio23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
@@ -41,7 +39,7 @@ class Home extends Component {
                 !
               </h4>
             </div>
-            <div>
+            {/* <div>
               <img src={saopaulo1023} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
@@ -68,7 +66,7 @@ class Home extends Component {
                 </a>
                 !
               </h4>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

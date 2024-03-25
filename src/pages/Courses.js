@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-// import cursoPreparatorio from "../assets/files/cursoPreparatorio.pdf";
-import CursoAltura from "../assets/images/curso-trabalho-altura.jpeg";
+import encontro from "../assets/files/encontro_nacional.pdf";
 
 class Courses extends Component {
   render() {
@@ -10,8 +9,8 @@ class Courses extends Component {
           <h4 className="page-title p-3">Cursos Técnicos</h4>
           <div className="container">
             <div>
-              {/* <embed src={cursoPreparatorio} width="900px" height="660px" /> */}
-              <img src={CursoAltura} alt="banner evento" />
+              <embed src={encontro} width="900px" height="660px" />
+              {/* <img src={CursoAltura} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Faça sua{" "}
                 <a
@@ -22,7 +21,7 @@ class Courses extends Component {
                   inscrição aqui
                 </a>
                 !
-              </h4>
+              </h4> */}
             </div>
           </div>
         </div>
