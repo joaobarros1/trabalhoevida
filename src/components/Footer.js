@@ -65,10 +65,7 @@ export class Footer extends Component {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          <p>
-            © 2023 - Instituto Para Promoção do Trabalho Empreendedor - Trabalho
-            e Vida
-          </p>
+          <p>© 2023 - Instituto Trabalho e Vida</p>
           <p>institutotrabalhoevida@gmail.com</p>
         </div>
       </footer>

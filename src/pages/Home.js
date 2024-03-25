@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import simposio23 from "../assets/images/simposio23.jpeg";
 import joao_campos from "../assets/images/joao_campos.jpg";
 
 class Home extends Component {
@@ -7,11 +6,11 @@ class Home extends Component {
     return (
       <div className="d-flex page-container">
         <div className="d-flex flex-column">
-          <h4 className="page-title p-3">
+          {/* <h4 className="page-title p-3">
             Seminários, Simpósios e Cursos Técnicos
-          </h4>
+          </h4> */}
           <div className="container">
-            <div className="d-flex flex-column aling-items-center">
+            <div className="d-flex flex-column aling-items-center p-5">
               <img src={joao_campos} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
@@ -25,7 +24,7 @@ class Home extends Component {
                 !
               </h4>
             </div>
-            <div className="d-flex flex-column aling-items-center">
+            {/* <div className="d-flex flex-column aling-items-center">
               <img src={simposio23} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
@@ -38,7 +37,7 @@ class Home extends Component {
                 </a>
                 !
               </h4>
-            </div>
+            </div> */}
             {/* <div>
               <img src={saopaulo1023} alt="banner evento" />
               <h4 className="pt-4 pb-5">
