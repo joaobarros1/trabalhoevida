@@ -1,16 +1,31 @@
 import React, { Component } from "react";
 import joao_campos from "../assets/images/joao_campos.jpg";
+import vitoria_24 from "../assets/images/vitoria_24.jpeg";
 
 class Home extends Component {
   render() {
     return (
       <div className="d-flex page-container">
         <div className="d-flex flex-column">
-          {/* <h4 className="page-title p-3">
+          <h1 className="page-title p-3 fs-4">
             Seminários, Simpósios e Cursos Técnicos
-          </h4> */}
+          </h1>
           <div className="container">
-            <div className="d-flex flex-column aling-items-center p-5">
+            <div className="d-flex flex-column aling-items-center">
+              <img src={vitoria_24} alt="banner evento" />
+              <h4 className="pt-4 pb-5">
+                Garanta sua{" "}
+                <a
+                  href="https://forms.gle/g5tT1VAVG1keGuFA6"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  inscrição aqui
+                </a>
+                !
+              </h4>
+            </div>
+            <div className="d-flex flex-column aling-items-center">
               <img src={joao_campos} alt="banner evento" />
               <h4 className="pt-4 pb-5">
                 Garanta sua{" "}
@@ -24,20 +39,6 @@ class Home extends Component {
                 !
               </h4>
             </div>
-            {/* <div className="d-flex flex-column aling-items-center">
-              <img src={simposio23} alt="banner evento" />
-              <h4 className="pt-4 pb-5">
-                Garanta sua{" "}
-                <a
-                  href="https://forms.gle/6NjQmrkjQTo3oT519"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  inscrição aqui
-                </a>
-                !
-              </h4>
-            </div> */}
             {/* <div>
               <img src={saopaulo1023} alt="banner evento" />
               <h4 className="pt-4 pb-5">
